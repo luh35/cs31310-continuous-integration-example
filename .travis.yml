@@ -5,4 +5,5 @@ jdk: openjdk16
 
 after_failure:
   - pwd
+  - ls -l target/surefire-reports
   - cat target/surefire-reports/*.txt
