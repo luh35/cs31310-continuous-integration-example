@@ -15,7 +15,7 @@ public class FibonacciGeneratorTest {
         FibGenerator fibGen = new FibGenerator();
         ArrayList<Integer> values = fibGen.fib(0);
         assertEquals(1, values.size());
-        assertEquals(0, values.get(0));
+        assertEquals(2, values.get(0));
     }
 
     @Test
